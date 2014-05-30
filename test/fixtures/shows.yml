@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  network_id: 
+  hulu: false
+  netflix: false
+  itunes: 9.99
+  amazon: 9.99
+
+two:
+  name: MyString
+  network_id: 
+  hulu: false
+  netflix: false
+  itunes: 9.99
+  amazon: 9.99

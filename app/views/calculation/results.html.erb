@@ -1,0 +1,13 @@
+<h1>Results</h1>
+
+<% @purchases.each do |service, shows| %>
+  <p>Use <%= Show::SERVICE_DISPLAY_NAMES[service] %> to watch
+	<%= shows.map { |s| "\"#{s.name}\"" }.to_sentence %>.</p>
+<% end %>
+
+Your Total Cost: <%= number_to_currency(@total_cost) %>
+
+<% if @unavailable.present? %>
+  <p><%= @unavailable.map { |s| "\"#{s.name}\"" }.to_sentence %>
+	<%= 'is'.pluralize(@unavailable.length) %> unavailable online.</p>
+<% end %>

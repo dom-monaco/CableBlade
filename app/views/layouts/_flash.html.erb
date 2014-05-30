@@ -1,0 +1,10 @@
+<% if flash.present? %>
+  <div class="row">
+    <% flash.keys.each do |type| %>
+      <div class="alert alert-<%= type %> alert-dismissable">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <%= flash[type] %>
+      </div>
+    <% end %>
+  </div>
+<% end %>

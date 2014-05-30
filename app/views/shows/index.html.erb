@@ -1,0 +1,32 @@
+<h1>Select your shows</h1>
+
+<%= form_tag(results_path, method: 'get') do %>
+  <table>
+	<thead>
+      <tr>
+		<th></th>
+		<th>Name</th>
+		<th>Network</th>
+		<th>Hulu</th>
+		<th>Netflix</th>
+		<th>Itunes</th>
+		<th>Amazon</th>
+      </tr>
+	</thead>
+
+	<tbody>
+      <% @shows.each do |show| %>
+		<tr>
+          <td><%= check_box_tag('shows[]', show.id) %></td>
+          <td><%= show.name %></td>
+          <td><%= show.network.name %></td>
+          <td><%= show.hulu ? 'Available' : 'Unavailable' %></td>
+          <td><%= show.netflix ? 'Available' : 'Unavailable' %></td>
+          <td><%= show.itunes ? number_to_currency(show.itunes) : 'Unavailable' %></td>
+          <td><%= show.amazon ? number_to_currency(show.amazon) : 'Unavailable' %></td>
+		</tr>
+      <% end %>
+	</tbody>
+  </table>
+  <input type="submit" value="Next">
+<% end %>

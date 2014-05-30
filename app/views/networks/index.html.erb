@@ -1,0 +1,17 @@
+<h1>Select your networks</h1>
+
+<%= form_tag(shows_path, method: 'get') do %>
+  <table>
+	<tbody>
+      <% @networks.each do |network| %>
+		<tr>
+          <td><%= check_box_tag('networks[]', network.id) %></td>
+          <td><%= network.name %></td>
+          <td><%= image_tag(network.image || placeholder_image) %></td>
+		</tr>
+      <% end %>
+	</tbody>
+  </table>
+  <br>
+  <input type="submit" value="Next">
+<% end %>
