@@ -2,7 +2,10 @@
 <html>
 <head>
   <title>Cable Blade: Cut Your Cable Bill</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> <!-- Bootstrap -->
   <%= stylesheet_link_tag "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -14,13 +17,40 @@
     <![endif]-->
 </head>
 
-<body>
-
+<body style="background-color:#f3f3f3;text-align:center;color:000000;">
+<!-- NAV -->
+  <nav class="navbar navbar-inverse" role="navigation">
+    <div class="container-fluid">
+<!-- Brand & Toggle grouped for mobile device -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <%= link_to "Cable Blade", root_path, class: "navbar-brand" %>
+      </div>
+<!-- Collect nav links for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><%= link_to "Home", root_path %></li>
+          <li><%= link_to "About", about_path %></li>
+          <li><%= link_to "Contact", contact_path %></li>
+        </ul>
+      </div><!-- navbar-collapse -->
+    </div><!-- container-fluid -->
+  </nav>
+<!-- END NAV -->
+<!-- CONTENT -->
   <div class="container-fluid">
     <%= render 'layouts/flash' %>
     <%= yield %>
   </div>
+<!-- END CONTENT -->
 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -1,17 +1,15 @@
-<h1>Select your networks</h1>
+<h1>Select your Channels</h1>
+<p>Choose the Channels that you watch, then click submit.  Keep in mind that sister channels, such as Disney XD, History2, Nick Jr, etc. have been grouped under the main channel name.  For example if you watch Disney XD, you would choose Disney.</p>
 
 <%= form_tag(shows_path, method: 'get') do %>
-  <table>
-	<tbody>
-      <% @networks.each do |network| %>
-		<tr>
-          <td><%= check_box_tag('networks[]', network.id) %></td>
-          <td><%= network.name %></td>
-          <td><%= image_tag(network.image || placeholder_image) %></td>
-		</tr>
-      <% end %>
-	</tbody>
-  </table>
-  <br>
-  <input type="submit" value="Next">
+  <% @networks.each do |network| %>
+		<div class="col-xs-6 col-md-3">
+      <label>
+        <%= image_tag network.image, class: "center-block" %>
+        <%= check_box_tag('networks[]', network.id) %>
+      </label>
+	  </div>
+  <% end %>
+
+  <div class="col-xs-12"><input type="submit" value="Next"></div>
 <% end %>

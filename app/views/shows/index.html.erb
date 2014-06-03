@@ -1,32 +1,15 @@
-<h1>Select your shows</h1>
+<h1>Select your Shows</h1>
+<p>Now pick the shows that you watch, when you are finished click submit.</p>
 
 <%= form_tag(results_path, method: 'get') do %>
-  <table>
-	<thead>
-      <tr>
-		<th></th>
-		<th>Name</th>
-		<th>Network</th>
-		<th>Hulu</th>
-		<th>Netflix</th>
-		<th>Itunes</th>
-		<th>Amazon</th>
-      </tr>
-	</thead>
-
-	<tbody>
-      <% @shows.each do |show| %>
-		<tr>
-          <td><%= check_box_tag('shows[]', show.id) %></td>
-          <td><%= show.name %></td>
-          <td><%= show.network.name %></td>
-          <td><%= show.hulu ? 'Available' : 'Unavailable' %></td>
-          <td><%= show.netflix ? 'Available' : 'Unavailable' %></td>
-          <td><%= show.itunes ? number_to_currency(show.itunes) : 'Unavailable' %></td>
-          <td><%= show.amazon ? number_to_currency(show.amazon) : 'Unavailable' %></td>
-		</tr>
-      <% end %>
-	</tbody>
-  </table>
-  <input type="submit" value="Next">
+  <% @shows.each do |show| %>
+    <div class="col-xs-12 col-md-6">
+      <label>
+        <%= check_box_tag('shows[]', show.id) %>
+        <%= show.name %>
+        <%= show.network.name %>
+      </label>
+    </div>
+  <% end %>
+  <div class="col-xs-12"><input type="submit" value="Next"></div>
 <% end %>
