@@ -1,0 +1,24 @@
+<table>
+  <tr>
+    <th style="text-align: right">ID</th>
+    <td style="text-align: left; padding-left: 20px"><%= @network.id %></td>
+  </tr>
+  <tr>
+    <th style="text-align: right">Name</th>
+    <td style="text-align: left; padding-left: 20px"><%= @network.name %></td>
+  </tr>
+  <tr>
+    <th style="text-align: right">Image</th>
+    <td style="text-align: left; padding-left: 20px"><%= image_tag @network.image %></td>
+  </tr>
+  <tr>
+    <th style="text-align: right">Created</th>
+    <td style="text-align: left; padding-left: 20px">
+      <%= @network.created_at.strftime('%A, %B %e %Y, %l:%M %p %Z') %>
+    </td>
+  </tr>
+
+</table>
+
+<%= link_to "Edit", edit_admin_network_path(@network), class: 'btn btn-primary' %>
+<%= link_to "Delete", admin_network_path(@network), class: 'btn btn-danger', data: { confirm: "Are you sure you want to delete this network?" }, method: 'delete' %>
