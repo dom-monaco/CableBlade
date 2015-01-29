@@ -17134,3 +17134,65 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-27 18:31:13
 
 
 Started GET "/assets/shows.js?body=1" for 127.0.0.1 at 2015-01-27 18:31:13 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 20:21:50 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_flash.html.erb (1.0ms)
+Completed 200 OK in 235ms (Views: 224.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/calculation.css?body=1" for 127.0.0.1 at 2015-01-28 20:21:50 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-28 20:21:50 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 20:21:50 -0500
+
+
+Started GET "/assets/shows.css?body=1" for 127.0.0.1 at 2015-01-28 20:21:50 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-28 20:21:50 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 20:21:50 -0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-28 20:21:50 -0500
+
+
+Started GET "/assets/networks.css?body=1" for 127.0.0.1 at 2015-01-28 20:21:50 -0500
+
+
+Started GET "/assets/jquery/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 20:21:50 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 20:21:50 -0500
+
+
+Started GET "/assets/bootstrap/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-28 20:21:50 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-28 20:21:50 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 20:21:50 -0500
+
+
+Started GET "/assets/calculation.js?body=1" for 127.0.0.1 at 2015-01-28 20:21:50 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-28 20:21:50 -0500
+
+
+Started GET "/assets/networks.js?body=1" for 127.0.0.1 at 2015-01-28 20:21:50 -0500
+
+
+Started GET "/assets/shows.js?body=1" for 127.0.0.1 at 2015-01-28 20:21:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 20:21:50 -0500
