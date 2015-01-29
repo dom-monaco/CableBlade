@@ -1,5 +1,32 @@
+<!-- NAV -->
+  <nav class="navbar navbar-inverse" role="navigation">
+    <div class="container-fluid">
+<!-- Brand & Toggle grouped for mobile device -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <%= link_to "Cable Blade", root_path, class: "navbar-brand" %>
+      </div>
+<!-- Collect nav links for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><%= link_to "Home", root_path %></li>
+          <li><%= link_to "About", about_path %></li>
+          <li class="active"><%= link_to "Contact", contact_path %></li>
+        </ul>
+      </div><!-- navbar-collapse -->
+    </div><!-- container-fluid -->
+  </nav>
+<!-- END NAV -->
+
 <h1>Contact Page</h1>
 <p>Feel free to let me know how awesome, or how sucky you think the site is, either way let me know how I can make it a better experience.</p>
 <!-- email form -->
-
+<a href="mailto:dmonaco05@hotmail.com" subject:"Cable Blade">Email me!</a>
+<br>
 <!-- twitter link -->
+<a href="http://www.twitter.com/dom_monaco">My twitter!</a>

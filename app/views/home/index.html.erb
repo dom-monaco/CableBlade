@@ -1,4 +1,29 @@
-<h1>Home#index</h1>
+<!-- NAV -->
+  <nav class="navbar navbar-inverse" role="navigation">
+    <div class="container-fluid">
+<!-- Brand & Toggle grouped for mobile device -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <%= link_to "Cable Blade", root_path, class: "navbar-brand" %>
+      </div>
+<!-- Collect nav links for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><%= link_to "Home", root_path %></li>
+          <li><%= link_to "About", about_path %></li>
+          <li><%= link_to "Contact", contact_path %></li>
+        </ul>
+      </div><!-- navbar-collapse -->
+    </div><!-- container-fluid -->
+  </nav>
+<!-- END NAV -->
 
-<%= link_to 'Start here', networks_path %>
-
+<h1>Welcome to Cable Blade</h1>
+<p>Cable Blade is your online tool to help you calculate your TV viewing costs. <br>  The average tv portion of your cable bill is $75/mo, with Cable Blade you can determine whether or not you can watch your favorite shows online and how much you can save on your bill each month.</p>
+<br>
+<%= link_to 'Start here', networks_path, class: "btn btn-primary", style: "color:white;" %>
