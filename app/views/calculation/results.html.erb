@@ -37,3 +37,27 @@ Your Total Cost: <%= number_to_currency(@total_cost) %> per month
 	<%= 'is'.pluralize(@unavailable.length) %> not available online.</p>
 <% end %>
 <p><%= link_to 'Start over', networks_path, class: "btn btn-primary", style: "color:white;" %></p>
+<hr>
+<p>Share this site with your friends and let them know how much you will be saving.</p>
+<!-- facebook share button -->
+<p><div class="fb-like" data-href="https://www.cableblade.com" data-layout="standard" data-action="recommend" data-show-faces="true" data-share="true"></div></p>
+
+<p>Any donations help improve the site</p>
+<!-- paypal donate button -->
+<p><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form></p>
+<!-- google ad code -->
+<p><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Results Ad 0 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-4496550303243782"
+     data-ad-slot="5020550959"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></p>

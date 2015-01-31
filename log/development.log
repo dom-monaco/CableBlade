@@ -17196,3 +17196,1146 @@ Started GET "/assets/shows.js?body=1" for 127.0.0.1 at 2015-01-28 20:21:50 -0500
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 20:21:50 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 21:06:17 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_flash.html.erb (0.7ms)
+Completed 200 OK in 251ms (Views: 238.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-28 21:06:18 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+Completed 200 OK in 126ms (Views: 125.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/calculation.css?body=1" for 127.0.0.1 at 2015-01-28 21:06:18 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-28 21:06:18 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-28 21:06:18 -0500
+
+
+Started GET "/assets/networks.css?body=1" for 127.0.0.1 at 2015-01-28 21:06:18 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-28 21:06:18 -0500
+
+
+Started GET "/assets/shows.css?body=1" for 127.0.0.1 at 2015-01-28 21:06:18 -0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-28 21:06:18 -0500
+
+
+Started GET "/assets/jquery/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 21:06:18 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 21:06:18 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 21:06:18 -0500
+
+
+Started GET "/assets/bootstrap/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-28 21:06:18 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-28 21:06:18 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-28 21:06:18 -0500
+
+
+Started GET "/assets/calculation.js?body=1" for 127.0.0.1 at 2015-01-28 21:06:18 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-28 21:06:18 -0500
+
+
+Started GET "/assets/networks.js?body=1" for 127.0.0.1 at 2015-01-28 21:06:18 -0500
+
+
+Started GET "/assets/shows.js?body=1" for 127.0.0.1 at 2015-01-28 21:06:18 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-28 21:06:18 -0500
+
+
+Started GET "/about" for 127.0.0.1 at 2015-01-28 21:06:20 -0500
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_flash.html.erb (0.5ms)
+Completed 200 OK in 113ms (Views: 112.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-31 15:00:26 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_flash.html.erb (0.7ms)
+Completed 200 OK in 289ms (Views: 268.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-31 15:00:26 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+Completed 200 OK in 108ms (Views: 107.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-31 15:00:27 -0500
+
+
+Started GET "/assets/calculation.css?body=1" for 127.0.0.1 at 2015-01-31 15:00:27 -0500
+
+
+Started GET "/assets/networks.css?body=1" for 127.0.0.1 at 2015-01-31 15:00:27 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-31 15:00:27 -0500
+
+
+Started GET "/assets/shows.css?body=1" for 127.0.0.1 at 2015-01-31 15:00:27 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-31 15:00:27 -0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-31 15:00:27 -0500
+
+
+Started GET "/assets/jquery/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:27 -0500
+
+
+Started GET "/assets/bootstrap/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:27 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:27 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:27 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:27 -0500
+
+
+Started GET "/assets/calculation.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:27 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:27 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:27 -0500
+
+
+Started GET "/assets/networks.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:27 -0500
+
+
+Started GET "/assets/shows.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:27 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:27 -0500
+
+
+Started GET "/networks" for 127.0.0.1 at 2015-01-31 15:00:29 -0500
+Processing by NetworksController#index as HTML
+  [1m[35mNetwork Load (6.4ms)[0m  SELECT "networks".* FROM "networks"
+  Rendered networks/index.html.erb within layouts/application (307.6ms)
+  Rendered layouts/_flash.html.erb (0.5ms)
+Completed 200 OK in 423ms (Views: 405.4ms | ActiveRecord: 9.6ms)
+
+
+Started GET "/shows?utf8=%E2%9C%93&networks%5B%5D=2" for 127.0.0.1 at 2015-01-31 15:00:33 -0500
+Processing by ShowsController#index as HTML
+  Parameters: {"utf8"=>"✓", "networks"=>["2"]}
+  [1m[36mShow Load (4.0ms)[0m  [1mSELECT "shows".* FROM "shows"  WHERE "shows"."network_id" IN (2)[0m
+  [1m[35mNetwork Load (0.4ms)[0m  SELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered shows/index.html.erb within layouts/application (37.5ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+Completed 200 OK in 164ms (Views: 143.2ms | ActiveRecord: 9.5ms)
+
+
+Started GET "/assets/calculation.css?body=1" for 127.0.0.1 at 2015-01-31 15:00:33 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-31 15:00:33 -0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-31 15:00:33 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-31 15:00:33 -0500
+
+
+Started GET "/assets/shows.css?body=1" for 127.0.0.1 at 2015-01-31 15:00:33 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-31 15:00:33 -0500
+
+
+Started GET "/assets/networks.css?body=1" for 127.0.0.1 at 2015-01-31 15:00:33 -0500
+
+
+Started GET "/assets/jquery/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:33 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:33 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:33 -0500
+
+
+Started GET "/assets/bootstrap/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:33 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:33 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:33 -0500
+
+
+Started GET "/assets/calculation.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:33 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:33 -0500
+
+
+Started GET "/assets/networks.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:33 -0500
+
+
+Started GET "/assets/shows.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:33 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:33 -0500
+
+
+Started GET "/results?utf8=%E2%9C%93&shows%5B%5D=53&shows%5B%5D=51" for 127.0.0.1 at 2015-01-31 15:00:37 -0500
+Processing by CalculationController#results as HTML
+  Parameters: {"utf8"=>"✓", "shows"=>["53", "51"]}
+  [1m[35mShow Load (1.3ms)[0m  SELECT "shows".* FROM "shows"  WHERE "shows"."id" IN (53, 51)
+  Rendered calculation/results.html.erb within layouts/application (19.8ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+Completed 200 OK in 136ms (Views: 131.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/calculation.css?body=1" for 127.0.0.1 at 2015-01-31 15:00:37 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-31 15:00:37 -0500
+
+
+Started GET "/assets/networks.css?body=1" for 127.0.0.1 at 2015-01-31 15:00:37 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-31 15:00:37 -0500
+
+
+Started GET "/assets/shows.css?body=1" for 127.0.0.1 at 2015-01-31 15:00:37 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-31 15:00:37 -0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-31 15:00:37 -0500
+
+
+Started GET "/assets/jquery/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:37 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:37 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:37 -0500
+
+
+Started GET "/assets/bootstrap/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:37 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:37 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:37 -0500
+
+
+Started GET "/assets/calculation.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:37 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:37 -0500
+
+
+Started GET "/assets/networks.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:37 -0500
+
+
+Started GET "/assets/shows.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:37 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-31 15:00:37 -0500
+
+
+Started GET "/about" for 127.0.0.1 at 2015-01-31 15:00:40 -0500
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+Completed 200 OK in 119ms (Views: 118.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-01-31 15:04:04 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_flash.html.erb (0.5ms)
+Completed 200 OK in 190ms (Views: 180.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/calculation.css?body=1" for 127.0.0.1 at 2015-01-31 15:04:05 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-31 15:04:05 -0500
+
+
+Started GET "/assets/networks.css?body=1" for 127.0.0.1 at 2015-01-31 15:04:05 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-31 15:04:05 -0500
+
+
+Started GET "/assets/shows.css?body=1" for 127.0.0.1 at 2015-01-31 15:04:05 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-31 15:04:05 -0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-31 15:04:05 -0500
+
+
+Started GET "/assets/jquery/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:04:05 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:04:05 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-31 15:04:05 -0500
+
+
+Started GET "/assets/bootstrap/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:04:05 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:04:05 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-31 15:04:05 -0500
+
+
+Started GET "/assets/calculation.js?body=1" for 127.0.0.1 at 2015-01-31 15:04:05 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-31 15:04:05 -0500
+
+
+Started GET "/assets/networks.js?body=1" for 127.0.0.1 at 2015-01-31 15:04:05 -0500
+
+
+Started GET "/assets/shows.js?body=1" for 127.0.0.1 at 2015-01-31 15:04:05 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-31 15:04:05 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-31 15:04:21 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_flash.html.erb (0.4ms)
+Completed 200 OK in 117ms (Views: 116.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/networks" for 127.0.0.1 at 2015-01-31 15:04:22 -0500
+Processing by NetworksController#index as HTML
+  [1m[35mNetwork Load (0.8ms)[0m  SELECT "networks".* FROM "networks"
+  Rendered networks/index.html.erb within layouts/application (317.3ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+Completed 200 OK in 440ms (Views: 430.8ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-01-31 15:08:52 -0500
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+Completed 200 OK in 118ms (Views: 117.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-31 15:08:54 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+Completed 200 OK in 112ms (Views: 111.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/networks" for 127.0.0.1 at 2015-01-31 15:08:55 -0500
+Processing by NetworksController#index as HTML
+  [1m[36mNetwork Load (0.8ms)[0m  [1mSELECT "networks".* FROM "networks"[0m
+  Rendered networks/index.html.erb within layouts/application (309.3ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+Completed 200 OK in 421ms (Views: 419.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/shows?utf8=%E2%9C%93&networks%5B%5D=4" for 127.0.0.1 at 2015-01-31 15:08:58 -0500
+Processing by ShowsController#index as HTML
+  Parameters: {"utf8"=>"✓", "networks"=>["4"]}
+  [1m[35mShow Load (0.8ms)[0m  SELECT "shows".* FROM "shows"  WHERE "shows"."network_id" IN (4)
+  [1m[36mNetwork Load (0.4ms)[0m  [1mSELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered shows/index.html.erb within layouts/application (27.5ms)
+  Rendered layouts/_flash.html.erb (0.2ms)
+Completed 200 OK in 150ms (Views: 139.3ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/calculation.css?body=1" for 127.0.0.1 at 2015-01-31 15:08:58 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-31 15:08:58 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-31 15:08:58 -0500
+
+
+Started GET "/assets/networks.css?body=1" for 127.0.0.1 at 2015-01-31 15:08:58 -0500
+
+
+Started GET "/assets/shows.css?body=1" for 127.0.0.1 at 2015-01-31 15:08:58 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-31 15:08:58 -0500
+
+
+Started GET "/assets/jquery/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:08:58 -0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-31 15:08:58 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:08:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-31 15:08:58 -0500
+
+
+Started GET "/assets/bootstrap/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:08:58 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:08:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-31 15:08:58 -0500
+
+
+Started GET "/assets/calculation.js?body=1" for 127.0.0.1 at 2015-01-31 15:08:58 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-31 15:08:58 -0500
+
+
+Started GET "/assets/networks.js?body=1" for 127.0.0.1 at 2015-01-31 15:08:58 -0500
+
+
+Started GET "/assets/shows.js?body=1" for 127.0.0.1 at 2015-01-31 15:08:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-31 15:08:58 -0500
+
+
+Started GET "/results?utf8=%E2%9C%93&shows%5B%5D=78" for 127.0.0.1 at 2015-01-31 15:09:01 -0500
+Processing by CalculationController#results as HTML
+  Parameters: {"utf8"=>"✓", "shows"=>["78"]}
+  [1m[36mShow Load (0.4ms)[0m  [1mSELECT  "shows".* FROM "shows"  WHERE "shows"."id" = $1 LIMIT 1[0m  [["id", 78]]
+  Rendered calculation/results.html.erb within layouts/application (9.7ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+Completed 200 OK in 123ms (Views: 120.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/calculation.css?body=1" for 127.0.0.1 at 2015-01-31 15:09:01 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-31 15:09:01 -0500
+
+
+Started GET "/assets/networks.css?body=1" for 127.0.0.1 at 2015-01-31 15:09:01 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-31 15:09:01 -0500
+
+
+Started GET "/assets/shows.css?body=1" for 127.0.0.1 at 2015-01-31 15:09:01 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-31 15:09:01 -0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-31 15:09:01 -0500
+
+
+Started GET "/assets/jquery/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:09:01 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:09:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-31 15:09:01 -0500
+
+
+Started GET "/assets/bootstrap/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:09:01 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:09:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-31 15:09:01 -0500
+
+
+Started GET "/assets/calculation.js?body=1" for 127.0.0.1 at 2015-01-31 15:09:01 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-31 15:09:01 -0500
+
+
+Started GET "/assets/networks.js?body=1" for 127.0.0.1 at 2015-01-31 15:09:01 -0500
+
+
+Started GET "/assets/shows.js?body=1" for 127.0.0.1 at 2015-01-31 15:09:01 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-31 15:09:01 -0500
+
+
+Started GET "/results?utf8=%E2%9C%93&shows%5B%5D=78" for 127.0.0.1 at 2015-01-31 15:09:50 -0500
+Processing by CalculationController#results as HTML
+  Parameters: {"utf8"=>"✓", "shows"=>["78"]}
+  [1m[35mShow Load (0.4ms)[0m  SELECT  "shows".* FROM "shows"  WHERE "shows"."id" = $1 LIMIT 1  [["id", 78]]
+  Rendered calculation/results.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+Completed 200 OK in 105ms (Views: 103.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/calculation.css?body=1" for 127.0.0.1 at 2015-01-31 15:09:50 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-31 15:09:50 -0500
+
+
+Started GET "/assets/networks.css?body=1" for 127.0.0.1 at 2015-01-31 15:09:50 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-31 15:09:50 -0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-31 15:09:50 -0500
+
+
+Started GET "/assets/shows.css?body=1" for 127.0.0.1 at 2015-01-31 15:09:50 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-31 15:09:50 -0500
+
+
+Started GET "/assets/jquery/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:09:50 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:09:50 -0500
+
+
+Started GET "/assets/calculation.js?body=1" for 127.0.0.1 at 2015-01-31 15:09:50 -0500
+
+
+Started GET "/assets/bootstrap/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:09:50 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:09:50 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-31 15:09:50 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-31 15:09:50 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-31 15:09:50 -0500
+
+
+Started GET "/assets/networks.js?body=1" for 127.0.0.1 at 2015-01-31 15:09:50 -0500
+
+
+Started GET "/assets/shows.js?body=1" for 127.0.0.1 at 2015-01-31 15:09:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-31 15:09:50 -0500
+
+
+Started GET "/results?utf8=%E2%9C%93&shows%5B%5D=78" for 127.0.0.1 at 2015-01-31 15:10:46 -0500
+Processing by CalculationController#results as HTML
+  Parameters: {"utf8"=>"✓", "shows"=>["78"]}
+  [1m[36mShow Load (0.5ms)[0m  [1mSELECT  "shows".* FROM "shows"  WHERE "shows"."id" = $1 LIMIT 1[0m  [["id", 78]]
+  Rendered calculation/results.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+Completed 200 OK in 108ms (Views: 105.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/calculation.css?body=1" for 127.0.0.1 at 2015-01-31 15:10:46 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-31 15:10:46 -0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-31 15:10:46 -0500
+
+
+Started GET "/assets/jquery/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:10:46 -0500
+
+
+Started GET "/assets/networks.css?body=1" for 127.0.0.1 at 2015-01-31 15:10:46 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-31 15:10:46 -0500
+
+
+Started GET "/assets/shows.css?body=1" for 127.0.0.1 at 2015-01-31 15:10:46 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-31 15:10:46 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:10:46 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-31 15:10:46 -0500
+
+
+Started GET "/assets/bootstrap/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:10:46 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:10:46 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-31 15:10:46 -0500
+
+
+Started GET "/assets/calculation.js?body=1" for 127.0.0.1 at 2015-01-31 15:10:46 -0500
+
+
+Started GET "/assets/networks.js?body=1" for 127.0.0.1 at 2015-01-31 15:10:46 -0500
+
+
+Started GET "/assets/shows.js?body=1" for 127.0.0.1 at 2015-01-31 15:10:46 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-31 15:10:46 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-31 15:10:46 -0500
+
+
+Started GET "/results?utf8=%E2%9C%93&shows%5B%5D=78" for 127.0.0.1 at 2015-01-31 15:14:29 -0500
+Processing by CalculationController#results as HTML
+  Parameters: {"utf8"=>"✓", "shows"=>["78"]}
+  [1m[35mShow Load (0.4ms)[0m  SELECT  "shows".* FROM "shows"  WHERE "shows"."id" = $1 LIMIT 1  [["id", 78]]
+  Rendered calculation/results.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+Completed 200 OK in 131ms (Views: 129.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/calculation.css?body=1" for 127.0.0.1 at 2015-01-31 15:14:29 -0500
+
+
+Started GET "/assets/networks.css?body=1" for 127.0.0.1 at 2015-01-31 15:14:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-31 15:14:29 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-31 15:14:29 -0500
+
+
+Started GET "/assets/shows.css?body=1" for 127.0.0.1 at 2015-01-31 15:14:29 -0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-31 15:14:29 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-31 15:14:29 -0500
+
+
+Started GET "/assets/jquery/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:14:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:14:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-31 15:14:29 -0500
+
+
+Started GET "/assets/bootstrap/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:14:29 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-31 15:14:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-31 15:14:29 -0500
+
+
+Started GET "/assets/calculation.js?body=1" for 127.0.0.1 at 2015-01-31 15:14:29 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:14:29 -0500
+
+
+Started GET "/assets/networks.js?body=1" for 127.0.0.1 at 2015-01-31 15:14:29 -0500
+
+
+Started GET "/assets/shows.js?body=1" for 127.0.0.1 at 2015-01-31 15:14:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-31 15:14:29 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-31 15:20:02 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_flash.html.erb (0.6ms)
+Completed 200 OK in 212ms (Views: 198.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/calculation.css?body=1" for 127.0.0.1 at 2015-01-31 15:20:02 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-31 15:20:02 -0500
+
+
+Started GET "/assets/networks.css?body=1" for 127.0.0.1 at 2015-01-31 15:20:02 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-31 15:20:02 -0500
+
+
+Started GET "/assets/shows.css?body=1" for 127.0.0.1 at 2015-01-31 15:20:02 -0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-31 15:20:02 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-31 15:20:02 -0500
+
+
+Started GET "/assets/jquery/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:20:02 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:20:02 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-31 15:20:03 -0500
+
+
+Started GET "/assets/bootstrap/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:20:03 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:20:03 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-31 15:20:03 -0500
+
+
+Started GET "/assets/calculation.js?body=1" for 127.0.0.1 at 2015-01-31 15:20:03 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-31 15:20:03 -0500
+
+
+Started GET "/assets/networks.js?body=1" for 127.0.0.1 at 2015-01-31 15:20:03 -0500
+
+
+Started GET "/assets/shows.js?body=1" for 127.0.0.1 at 2015-01-31 15:20:03 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-31 15:20:03 -0500
+
+
+Started GET "/about" for 127.0.0.1 at 2015-01-31 15:20:05 -0500
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_flash.html.erb (0.5ms)
+Completed 200 OK in 122ms (Views: 121.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2015-01-31 15:20:08 -0500
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+Completed 200 OK in 136ms (Views: 136.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-01-31 15:20:11 -0500
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+Completed 200 OK in 111ms (Views: 110.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-01-31 15:21:52 -0500
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+Completed 200 OK in 121ms (Views: 120.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/calculation.css?body=1" for 127.0.0.1 at 2015-01-31 15:21:53 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-31 15:21:53 -0500
+
+
+Started GET "/assets/networks.css?body=1" for 127.0.0.1 at 2015-01-31 15:21:53 -0500
+
+
+Started GET "/assets/shows.css?body=1" for 127.0.0.1 at 2015-01-31 15:21:53 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-31 15:21:53 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-31 15:21:53 -0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-31 15:21:53 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:21:53 -0500
+
+
+Started GET "/assets/jquery/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:21:53 -0500
+
+
+Started GET "/assets/calculation.js?body=1" for 127.0.0.1 at 2015-01-31 15:21:53 -0500
+
+
+Started GET "/assets/bootstrap/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:21:53 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:21:53 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-31 15:21:53 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-31 15:21:53 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-31 15:21:53 -0500
+
+
+Started GET "/assets/networks.js?body=1" for 127.0.0.1 at 2015-01-31 15:21:53 -0500
+
+
+Started GET "/assets/shows.js?body=1" for 127.0.0.1 at 2015-01-31 15:21:53 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-31 15:21:53 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-31 15:22:05 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+Completed 200 OK in 114ms (Views: 113.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/networks" for 127.0.0.1 at 2015-01-31 15:22:06 -0500
+Processing by NetworksController#index as HTML
+  [1m[35mNetwork Load (0.8ms)[0m  SELECT "networks".* FROM "networks"
+  Rendered networks/index.html.erb within layouts/application (307.6ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+Completed 200 OK in 423ms (Views: 415.6ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/shows?utf8=%E2%9C%93&networks%5B%5D=4" for 127.0.0.1 at 2015-01-31 15:22:09 -0500
+Processing by ShowsController#index as HTML
+  Parameters: {"utf8"=>"✓", "networks"=>["4"]}
+  [1m[36mShow Load (0.8ms)[0m  [1mSELECT "shows".* FROM "shows"  WHERE "shows"."network_id" IN (4)[0m
+  [1m[35mNetwork Load (0.4ms)[0m  SELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "networks".* FROM "networks"  WHERE "networks"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered shows/index.html.erb within layouts/application (26.1ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+Completed 200 OK in 145ms (Views: 134.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/calculation.css?body=1" for 127.0.0.1 at 2015-01-31 15:22:09 -0500
+
+
+Started GET "/assets/networks.css?body=1" for 127.0.0.1 at 2015-01-31 15:22:09 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-31 15:22:09 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-31 15:22:09 -0500
+
+
+Started GET "/assets/shows.css?body=1" for 127.0.0.1 at 2015-01-31 15:22:09 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-31 15:22:09 -0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-31 15:22:09 -0500
+
+
+Started GET "/assets/jquery/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:09 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:09 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:09 -0500
+
+
+Started GET "/assets/bootstrap/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:09 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:09 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:09 -0500
+
+
+Started GET "/assets/calculation.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:09 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:09 -0500
+
+
+Started GET "/assets/networks.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:09 -0500
+
+
+Started GET "/assets/shows.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:09 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:09 -0500
+
+
+Started GET "/results?utf8=%E2%9C%93&shows%5B%5D=84" for 127.0.0.1 at 2015-01-31 15:22:12 -0500
+Processing by CalculationController#results as HTML
+  Parameters: {"utf8"=>"✓", "shows"=>["84"]}
+  [1m[35mShow Load (0.4ms)[0m  SELECT  "shows".* FROM "shows"  WHERE "shows"."id" = $1 LIMIT 1  [["id", 84]]
+  Rendered calculation/results.html.erb within layouts/application (9.1ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+Completed 200 OK in 130ms (Views: 127.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/calculation.css?body=1" for 127.0.0.1 at 2015-01-31 15:22:12 -0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-31 15:22:12 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-31 15:22:12 -0500
+
+
+Started GET "/assets/shows.css?body=1" for 127.0.0.1 at 2015-01-31 15:22:12 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-31 15:22:12 -0500
+
+
+Started GET "/assets/networks.css?body=1" for 127.0.0.1 at 2015-01-31 15:22:12 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-31 15:22:12 -0500
+
+
+Started GET "/assets/jquery/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:12 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:12 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:12 -0500
+
+
+Started GET "/assets/bootstrap/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:12 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:12 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:12 -0500
+
+
+Started GET "/assets/calculation.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:12 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:12 -0500
+
+
+Started GET "/assets/networks.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:12 -0500
+
+
+Started GET "/assets/shows.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:12 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:12 -0500
+
+
+Started GET "/results?utf8=%E2%9C%93&shows%5B%5D=84" for 127.0.0.1 at 2015-01-31 15:22:55 -0500
+Processing by CalculationController#results as HTML
+  Parameters: {"utf8"=>"✓", "shows"=>["84"]}
+  [1m[36mShow Load (0.4ms)[0m  [1mSELECT  "shows".* FROM "shows"  WHERE "shows"."id" = $1 LIMIT 1[0m  [["id", 84]]
+  Rendered calculation/results.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+Completed 200 OK in 120ms (Views: 118.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/calculation.css?body=1" for 127.0.0.1 at 2015-01-31 15:22:55 -0500
+
+
+Started GET "/assets/networks.css?body=1" for 127.0.0.1 at 2015-01-31 15:22:55 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-31 15:22:55 -0500
+
+
+Started GET "/assets/shows.css?body=1" for 127.0.0.1 at 2015-01-31 15:22:55 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-31 15:22:55 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-31 15:22:55 -0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-31 15:22:55 -0500
+
+
+Started GET "/assets/jquery/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:55 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:55 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:55 -0500
+
+
+Started GET "/assets/bootstrap/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:55 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:55 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:55 -0500
+
+
+Started GET "/assets/calculation.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:55 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:55 -0500
+
+
+Started GET "/assets/networks.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:55 -0500
+
+
+Started GET "/assets/shows.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:55 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-31 15:22:55 -0500
+
+
+Started GET "/results?utf8=%E2%9C%93&shows%5B%5D=84" for 127.0.0.1 at 2015-01-31 15:23:57 -0500
+Processing by CalculationController#results as HTML
+  Parameters: {"utf8"=>"✓", "shows"=>["84"]}
+  [1m[35mShow Load (0.4ms)[0m  SELECT  "shows".* FROM "shows"  WHERE "shows"."id" = $1 LIMIT 1  [["id", 84]]
+  Rendered calculation/results.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+Completed 200 OK in 123ms (Views: 121.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/calculation.css?body=1" for 127.0.0.1 at 2015-01-31 15:23:57 -0500
+
+
+Started GET "/assets/networks.css?body=1" for 127.0.0.1 at 2015-01-31 15:23:57 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-31 15:23:57 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-31 15:23:57 -0500
+
+
+Started GET "/assets/shows.css?body=1" for 127.0.0.1 at 2015-01-31 15:23:57 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-31 15:23:57 -0500
+
+
+Started GET "/assets/jquery/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:23:57 -0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-31 15:23:57 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-31 15:23:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-31 15:23:57 -0500
+
+
+Started GET "/assets/bootstrap/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:23:57 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-31 15:23:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-31 15:23:57 -0500
+
+
+Started GET "/assets/calculation.js?body=1" for 127.0.0.1 at 2015-01-31 15:23:57 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-31 15:23:57 -0500
+
+
+Started GET "/assets/networks.js?body=1" for 127.0.0.1 at 2015-01-31 15:23:57 -0500
+
+
+Started GET "/assets/shows.js?body=1" for 127.0.0.1 at 2015-01-31 15:23:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-31 15:23:57 -0500
